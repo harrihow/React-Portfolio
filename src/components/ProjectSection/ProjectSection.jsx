@@ -11,7 +11,7 @@ const projects = [
       'A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard.',
     features: [
       'JWT authentication & user management',
-      'Stripe payment integration & order tracking'
+      'Stripe payment integration & order tracking for Services'
     ],
     techStack: ['React', 'Spring Boot', 'MySQL', 'AWS']
   },
