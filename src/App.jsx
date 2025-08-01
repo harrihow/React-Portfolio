@@ -10,7 +10,6 @@ import ProjectSection from './components/ProjectSection/ProjectSection.jsx'
 
 export default function App() {
   return (
-  
     <>
       <Navbar />
     </>
