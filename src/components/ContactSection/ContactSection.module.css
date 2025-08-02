@@ -1,0 +1,43 @@
+.contact {
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+.sectionTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.sectionSubtitle {
+  font-size: 1.125rem;
+  margin-bottom: 2.5rem;
+  color: #555;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+@media (min-width: 640px) {
+  .contactButtons {
+    flex-direction: row;
+  }
+}
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.socialLink {
+  font-size: 1rem;
+  color: #777;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.socialLink:hover {
+  color: #1da1f2;
+}
