@@ -41,7 +41,7 @@ export default function ProjectCard({
 
         <div className={styles.projectLinks}>
           <a
-            href="https://example-ecommerce-demo.com"
+            href="https://harrihow.github.io/react-ticket-helper-generator/"
             className={cn(btnStyles.btn, btnStyles.btnSm, btnStyles.btnOutline)}
           >
             <svg
@@ -59,7 +59,7 @@ export default function ProjectCard({
             Demo
           </a>
           <a
-            href="https://github.com/harrihow/ecommerce-platform"
+            href="https://github.com/harrihow/react-ticket-helper-generator/"
             className={cn(btnStyles.btn, btnStyles.btnSm, btnStyles.btnOutline)}
           >
             <svg
@@ -77,7 +77,7 @@ export default function ProjectCard({
             Code
           </a>
           <a
-            href="https://github.com/harrihow/ecommerce-platform#readme"
+            href="https://github.com/harrihow/react-ticket-helper-generator/"
             className={cn(btnStyles.btn, btnStyles.btnSm, btnStyles.btnOutline)}
           >
             Case Study

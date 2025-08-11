@@ -6,37 +6,15 @@ import ProjectCard from './ProjectCard.jsx'
 const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
+    title: 'Ticket Helper Generator',
     description:
-      'A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard.',
+      'Simple App that assist agents in creating tickets for customer support',
     features: [
-      'JWT authentication & user management',
-      'Stripe payment integration & order tracking'
+      'Simple UI for ticket creation',
+      'Easy copy to clipboard functionality',
     ],
-    techStack: ['React', 'Spring Boot', 'MySQL', 'AWS']
+    techStack: ['React JS']
   },
-  {
-    id: 2,
-    title: 'Task Management App',
-    description:
-      'A collaborative task management application with real-time updates and team workspaces.',
-    features: [
-      'WebSocket real-time updates',
-      'Custom project workflows & filtering'
-    ],
-    techStack: ['React', 'Java', 'PostgreSQL', 'WebSocket']
-  },
-  {
-    id: 3,
-    title: 'AI Content Generator',
-    description:
-      'An intelligent content generation tool leveraging machine learning for high-quality written content.',
-    features: [
-      'OpenAI GPT integration & prompt templates',
-      'Tone adjustment & content export'
-    ],
-    techStack: ['React', 'Spring Boot', 'OpenAI API', 'PostgreSQL']
-  }
 ]
 
 export default function ProjectSection() {
@@ -44,9 +22,9 @@ export default function ProjectSection() {
     <section id="projects" className={styles.projects}>
       <div className="container">
         <div className={styles.sectionHeader}>
-          <h2 className={styles.sectionTitle}>Featured Projects</h2>
+          <h2 className={styles.sectionTitle}>Featured Project</h2>
           <p className={styles.sectionSubtitle}>
-            Here are some of my recent projects that showcase my skills in full-stack development
+            Here are some of my recent projects that showcase my skills.
           </p>
         </div>
 

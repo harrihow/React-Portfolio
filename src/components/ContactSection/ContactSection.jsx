@@ -14,7 +14,7 @@ export default function ContactSection() {
 
         <div className={styles.contactButtons}>
           <a
-            href="mailto:harri.fano@example.com"
+            href="mailto:harrifano.dev@gmail.com"
             className={cn(
               btnStyles.btn,
               btnStyles.btnPrimary,
@@ -29,7 +29,7 @@ export default function ContactSection() {
             Send Email
           </a>
           <a
-            href="https://linkedin.com/in/harrihow"
+            href="https://linkedin.com/in/harri-fano"
             className={cn(
               btnStyles.btn,
               btnStyles.btnOutline,
@@ -48,9 +48,9 @@ export default function ContactSection() {
         </div>
 
         <div className={styles.socialLinks}>
-          <a href="mailto:harri.fano@example.com" className={styles.socialLink}>Email</a>
+          <a href="mailto:harrifano.dev@gmail.com" className={styles.socialLink}>Email</a>
           <a href="https://github.com/harrihow" className={styles.socialLink} target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/harrihow" className={styles.socialLink} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://linkedin.com/in/harri-fano" className={styles.socialLink} target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </div>
     </section>

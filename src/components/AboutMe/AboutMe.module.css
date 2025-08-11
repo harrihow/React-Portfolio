@@ -1,0 +1,57 @@
+.about { padding: 5rem 1.5rem; }
+
+.aboutGrid {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+}
+@media (min-width: 1024px) {
+  .aboutGrid { grid-template-columns: 1fr 1fr; gap: 4rem; }
+}
+
+.aboutContent {
+    text-align: left;
+}
+
+.sectionTitle {
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--foreground);
+}
+
+.aboutText p {
+  color: var(--muted-foreground);
+  margin-bottom: 1rem;
+}
+
+.resumeDownload { margin-top: 1.5rem; }
+
+/* Skills */
+.skillsSection {}
+.skillsTitle {
+  font-size: 1.5rem; font-weight: 700; margin-bottom: 2rem; color: var(--foreground);
+}
+.skillsCategories { display: flex; flex-direction: column; gap: 1.5rem; }
+.skillCategory { margin-bottom: 1rem; }
+.categoryTitle { font-size: 1.125rem; font-weight: 600; color: var(--primary-color); margin-bottom: 0.75rem; }
+
+.techBadges { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.techBadge {
+  background: hsl(220, 13%, 15%);
+  color: var(--foreground);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 1rem 2rem; border-radius: 0.75rem; font-weight: 500; text-decoration: none;
+  border: none; cursor: pointer; transition: var(--transition);
+}
+.btnOutline { background: transparent; color: var(--foreground); border: 1px solid var(--border-color); }
+.btnOutline:hover { background: var(--card-background); }
+.btnLg { font-size: 1rem; }
