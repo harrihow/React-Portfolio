@@ -20,9 +20,9 @@ export default function HeroSection() {
         </div>
 
         <div className={styles.socialLinks}>
-          <a href="mailto:harri.fano@example.com" className={styles.socialLink}>Email</a>
+          <a href="mailto:harrifano.dev@gmail.com" className={styles.socialLink}>Email</a>
           <a href="https://github.com/harrihow" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>GitHub</a>
-          <a href="https://linkedin.com/in/harrihow" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>LinkedIn</a>
+          <a href="https://linkedin.com/in/harri-fano" target="_blank" rel="noopener noreferrer" className={styles.socialLink}>LinkedIn</a>
         </div>
       </div>
     </section>

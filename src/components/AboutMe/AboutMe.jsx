@@ -4,7 +4,7 @@ import styles from "./AboutMe.module.css";
 export default function AboutMe() {
   return (
     <section id="about" className={styles.about}>
-      <div className="container">{/* reuse your global .container */} 
+      <div className="container">
         <div className={styles.aboutGrid}>
           <div className={styles.aboutContent}>
             <h2 className={styles.sectionTitle}>About Me</h2>
@@ -45,8 +45,8 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
-        </div>{/* aboutGrid */}
-      </div>{/* container */}
+        </div>
+      </div>
     </section>
   );
 }

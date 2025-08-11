@@ -3,7 +3,7 @@ import React from 'react'
 import styles    from './ProjectsGrid.module.css'
 import btnStyles from '../Button/Button.module.css'
 import cn        from 'classnames'
-/*update*/
+
 export default function ProjectCard({
   title,
   description,

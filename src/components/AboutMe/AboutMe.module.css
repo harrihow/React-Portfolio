@@ -28,7 +28,6 @@
 .resumeDownload { margin-top: 1.5rem; }
 
 /* Skills */
-.skillsSection {}
 .skillsTitle {
   font-size: 1.5rem; font-weight: 700; margin-bottom: 2rem; color: var(--foreground);
 }
